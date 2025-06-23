@@ -1,10 +1,11 @@
 import { CiSearch } from "react-icons/ci";
 import { GiTigerHead } from "react-icons/gi";
+import banner from '../../assets/images/banner.jpg'
 
 const Header = () => {
     return (
-        <nav>
-            <div className="flex flex-col md:flex-row lg:flex-row justify-evenly max-w-[1320px] mx-auto mt-5 items-center">
+        <header className="max-w-[1320px] mx-auto">
+            <nav className="flex flex-col md:flex-row lg:flex-row justify-evenly mt-5 items-center">
                 <div>
                     <h3 className="text-3xl text-[#150B2B]">Recipe Calories</h3>
                 </div>
@@ -25,8 +26,20 @@ const Header = () => {
                         <GiTigerHead className="w-[24px] h-[24px] mt-3"></GiTigerHead>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+            <banner>
+                <div style={{ backgroundImage: `url(${banner})` }} className="bg-cover w-[1320px] h-[600px] pt-20 mt-5">
+                    <div className="w-[933px] h-[341px] mx-auto text-center mt-12">
+                        <h1 className="text-[52px] font-bold text-white">Discover an exceptional cooking class tailored for you!</h1>
+                        <p className="text-lg text-white">Learn to master basic cooking.Cook 500+ dishes to become an exceptionally well world-class chef.</p>
+                        <div className="w-[412px] h-[65px] mx-auto mt-5">
+                            <button className="w-[187px] h-[65px] text-[#150B2B] font-semibold text-[20px] bg-[#0BE58A] rounded-full mr-3">Explore Now</button>
+                            <button className="w-[187px] h-[65px] text-white border border-white rounded-full font-semibold text-[20px] ml-3">Our Feedback</button>
+                        </div>
+                    </div>
+                </div>
+            </banner>
+        </header>
     );
 };
 
