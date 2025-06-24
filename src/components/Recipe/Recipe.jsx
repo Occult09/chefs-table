@@ -6,11 +6,11 @@ const Recipe = ({ recipe }) => {
     const { recipe_name, recipe_image, description, ingredients, preparing_time, calories } = recipe
 
     return (
-        <div className="w-[379px] h-[685px] shadow-xl p-[24px] border border-[#28282833] rounded-xl">
-            <img className="w-[331px] h-[200px] border rounded-2xl" src={recipe_image} alt="" />
+        <div className="w-[379px] h-[685px] p-[24px] border border-[#28282833] rounded-xl">
+            <img className="w-[331px] h-[200px] rounded-2xl" src={recipe_image} alt="" />
             <h3 className="text-[20px] font-semibold text-neutral-700 my-3 pl-2">{recipe_name}</h3>
-            <p className="text-neutral-500 shadow-md rounded-sm pb-3 pl-2">{description}</p>
-            <div className="mt-5 shadow-md p-2 rounded-lg">
+            <p className="text-neutral-500 border-b-2 border-[#2828281A] pb-3 pl-2">{description}</p>
+            <div className="mt-5 border-b-2 border-[#2828281A] p-2">
                 <h3 className="text-[18px] font-medium text-neutral-700">Ingrerients: {ingredients.length}</h3>
                 <ul className="list-disc ml-8">
                     {
