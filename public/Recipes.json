@@ -1,0 +1,92 @@
+[
+    {
+        "recipe_id": "R001",
+        "recipe_name": "Spicy Chicken Stir-Fry",
+        "recipe_image": "../src/assets/images/Spicy Chicken Stir-Fry.jpg",
+        "description": "A quick and flavorful chicken stir-fry with a spicy kick.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "2 tbsp chili sauce",
+            "1 bell pepper",
+            "1 onion"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_id": "R002",
+        "recipe_name": "Classic Margherita Pizza",
+        "recipe_image": "../src/assets/images/Classic Margherita Pizza.jpeg",
+        "description": "A simple and delicious Italian Margherita pizza.",
+        "ingredients": [
+            "250 g pizza dough",
+            "100 g mozzarella cheese",
+            "50 g tomato sauce",
+            "10 basil leaves",
+            "1 tbsp olive oil"
+        ],
+        "preparing_time": "45 min",
+        "calories": "400 calories"
+    },
+    {
+        "recipe_id": "R003",
+        "recipe_name": "Beef Tacos",
+        "recipe_image": "../src/assets/images/Beef Tacos.jpg",
+        "description": "Juicy beef tacos with a blend of spices and fresh toppings.",
+        "ingredients": [
+            "500 g ground beef",
+            "6 taco shells",
+            "1 tomato",
+            "1 onion",
+            "100 g cheddar cheese"
+        ],
+        "preparing_time": "25 min",
+        "calories": "350 calories"
+    },
+    {
+        "recipe_id": "R004",
+        "recipe_name": "Vegetable Fried Rice",
+        "recipe_image": "../src/assets/images/Vegetable Fried Rice.jpg",
+        "description": "A healthy and easy vegetable fried rice recipe.",
+        "ingredients": [
+            "200 g basmati rice",
+            "1 carrot",
+            "50 g peas",
+            "2 eggs",
+            "2 tbsp soy sauce"
+        ],
+        "preparing_time": "30 min",
+        "calories": "300 calories"
+    },
+    {
+        "recipe_id": "R005",
+        "recipe_name": "Mushroom Basil Pasta",
+        "recipe_image": "../src/assets/images/Mushroom Basil Pasta.jpg",
+        "description": "Creamy mushroom pasta with fresh basil.",
+        "ingredients": [
+            "400 g pasta",
+            "400 g mushroom",
+            "200 ml cream",
+            "200 g basil leaf",
+            "2 garlic cloves"
+        ],
+        "preparing_time": "35 min",
+        "calories": "410 calories"
+    },
+    {
+        "recipe_id": "R006",
+        "recipe_name": "Grilled Salmon",
+        "recipe_image": "../src/assets/images/Grilled Salmon.jpg",
+        "description": "Tender grilled salmon with lemon and herbs.",
+        "ingredients": [
+            "2 salmon fillets",
+            "1 lemon",
+            "1 tbsp olive oil",
+            "1 tsp salt",
+            "1 tsp black pepper"
+        ],
+        "preparing_time": "20 min",
+        "calories": "290 calories"
+    }
+]

@@ -27,7 +27,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <banner>
+            <div>
                 <div style={{ backgroundImage: `url(${banner})` }} className="bg-cover w-[1320px] h-[600px] pt-20 mt-5">
                     <div className="w-[933px] h-[341px] mx-auto text-center mt-12">
                         <h1 className="text-[52px] font-bold text-white">Discover an exceptional cooking class tailored for you!</h1>
@@ -38,7 +38,11 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </banner>
+            </div>
+            <div className="w-[823px] h-[126px] mx-auto text-center mt-5">
+                <h3 className="text-[#150B2B] text-[40px] font-semibold">Our Recipes</h3>
+                <p className="text-[#150B2B99] mt-5">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque.</p>
+            </div>
         </header>
     );
 };
