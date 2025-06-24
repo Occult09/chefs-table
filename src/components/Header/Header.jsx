@@ -39,9 +39,9 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[823px] h-[126px] mx-auto text-center mt-5">
+            <div className="w-[823px] h-[200px] mx-auto text-center mt-5">
                 <h3 className="text-[#150B2B] text-[40px] font-semibold">Our Recipes</h3>
-                <p className="text-[#150B2B99] mt-5">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque.</p>
+                <p className="text-[#150B2B99] mt-5">At our restaurant, every dish tells a story — handcrafted with fresh ingredients, rich flavors, and a touch of passion. From timeless classics to bold new creations, our recipes are thoughtfully prepared to bring warmth, comfort, and satisfaction to every bite. Whether you're in the mood for something spicy, savory, or sweet, you'll find something to fall in love with on our menu.</p>
             </div>
         </header>
     );
